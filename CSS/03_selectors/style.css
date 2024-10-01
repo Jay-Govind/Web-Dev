@@ -1,0 +1,29 @@
+/* 1. Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Type Selector */
+
+    p {
+        font-size: 20px;
+        margin: 10px;
+        color: red;
+    }
+
+/* 3.  Class Selector */
+
+/* 4. ID Selector */
+
+/* 5. Attrinute Selector */
+
+/* 6. Descendant Selector */
+
+/* 7.Child Selector */
+
+/* 8. Adjacent Sibling Selector */
+
+/*  */
