@@ -1,79 +1,81 @@
 /* 1. Universal Selector */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* 2. Type Selector */
 
-    p {
-        font-size: 20px;
-        margin: 10px;
-        color: red;  
-    }
+p {
+  font-size: 20px;
+  margin: 10px;
+  color: red;
+}
 
-/* 3.  Class Selector */ 
+/* 3.  Class Selector */
 
 .highlight {
-    background-color: #2b2b2b;
+  background-color: #2b2b2b;
 }
 
 /* 4. ID Selector */
 
 #header {
-    background-color: #860303;
+  background-color: #860303;
 }
 
 /* 5. Attrinute Selector */
 
 input[type="text"] {
-    border: 10px solid #21a2c9;
+  border: 10px solid #21a2c9;
 }
 
 /* 6. Descendant Selector */
 
 article p {
-    color: #fff;
-    background-color: #1a1a1a;
+  color: #fff;
+  background-color: #1a1a1a;
 }
 
 /* 7.Child Selector */
 
 ul > li {
-    list-style-type: square;
-    margin: 20px;
+  list-style-type: square;
+  margin: 20px;
 }
 
 /* 8. Adjacent Sibling Selector */
 
 h1 + p {
-    color: #fff;
-    background-color: #21a2c9;
+  color: #fff;
+  background-color: #21a2c9;
 }
 
 /* 9. General Sibling Selector */
 
 h2 ~ p {
-    background-color: #a52a2a;
+  background-color: #a52a2a;
 }
 
 /* 10. Pseudo Class Selector */
 
 a:hover {
-    background-color: #1a6d30;
-    color: #fff;
+  background-color: #1a6d30;
+  color: #fff;
 }
 
 /* 11. Pseudo Element Selector */
 
 p::first-letter {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* 12. Grouping */
 
-h1, h2, h3 {
-    color : orange;
+h1,
+h2,
+h3 {
+  color: orange;
 }
