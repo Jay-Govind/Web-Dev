@@ -4,6 +4,7 @@ body {
   background-color: #1a1a1a;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .nav-container {
@@ -72,6 +73,7 @@ h2 {
   padding: 20px;
   border-radius: 5px;
   width: 200px;
+  box-sizing: border-box;
 }
 
 .nav2 ul {
