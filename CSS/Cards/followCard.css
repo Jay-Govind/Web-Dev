@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background-color: #6464f6f3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(247, 244, 244, 0.2);
+}
+
+.profile {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 50px);
+}
+
+.image {
+  grid-column: 1;
+  grid-row: 1/4;
+  height: 100px;
+  width: 100px;
+  align-self: flex-end;
+  justify-self: center;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(247, 244, 244, 0.2);
+  background-image: url("./jayg.jpg");
+  background-size: cover;
+}
+
+.style-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  grid-column: 1;
+  grid-row: 4/5;
+  margin-bottom: 20px;
+}
+
+.button {
+  grid-column: 1;
+  grid-row: 5/7;
+}
+
+.btn {
+  width: 150px;
+  height: 30px;
+  padding: 5px 15px;
+  margin-bottom: 5px;
+  color: 0207ff;
+  font-size: 15px;
+  background-color: transparent;
+  border: 2px solid midnightblue;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 2px #02042c84;
+}
+
+.btn:hover {
+  background-color: midnightblue;
+  color: white;
+}
+
+.style-2 {
+  background-color: midnightblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10% 0 10% 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.style-2:hover {
+  background-color: white;
+  border: 2px solid midnightblue;
+  color: midnightblue;
+}
+
+.post {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+.likes {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.followers {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
