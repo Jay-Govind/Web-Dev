@@ -14,13 +14,13 @@ body {
 }
 
 .container {
-  width: 300px;
+  width: 290px;
   height: 310px;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
-  background-color: #6464f6f3;
+  background-color: whitesmoke;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 100px);
@@ -46,12 +46,17 @@ body {
   align-self: flex-end;
   justify-self: center;
   margin-bottom: 20px;
-  border: 1px solid black;
+  border: 1px solid midnightblue;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(247, 244, 244, 0.2);
   background-image: url("./jayg.jpg");
   background-size: cover;
+  transition: all 1s ease;
+}
+
+.image:hover {
+  transform: scale(1.2);
 }
 
 .style-1 {
@@ -64,7 +69,8 @@ body {
 .content {
   grid-column: 1;
   grid-row: 4/5;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  color: midnightblue;
 }
 
 .button {
@@ -74,9 +80,9 @@ body {
 
 .btn {
   width: 150px;
-  height: 30px;
+  height: 35px;
   padding: 5px 15px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   color: 0207ff;
   font-size: 15px;
   background-color: transparent;
@@ -84,7 +90,7 @@ body {
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 2px 2px 2px #02042c84;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.815);
 }
 
 .btn:hover {
@@ -100,7 +106,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 10% 0 10% 0;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.5px;
 }
 
