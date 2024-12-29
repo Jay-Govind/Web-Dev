@@ -40,7 +40,7 @@ citiesVisited.push("Berlin"); // adding to the end
 /* 
     we can also use this method
     citiesvisited[citiesVisited.length] = "Berlin"
-    */
+*/
 
 /* 
 5. You have an array named `teaOrders` with `"chai"`, `"ice tea"`, `"matcha"` and `"earl grey"`.
@@ -56,3 +56,44 @@ let lastOrder = teaOrders.pop(); // removing from the end
     Create a soft copy of this array named `softCopyTeas`.
 */
 
+let popularTeas = ["green tea", "oolong tea", "chai"];
+let softCopyTeas = popularTeas;
+// console.log(softCopyTeas);
+// console.log(popularTeas);
+
+/* 
+7. You have an array named `topCities` containing `"Berlin"`, `"Singapore"`, and `"New York"`.
+    Create a hard copy of this array named `"hardCopyCities"`.
+*/
+
+let topCities = ["Berlin", "Singapore", "New York"];
+let hardCopyCities = [...topCities];
+// console.log(hardCopyCities);
+
+/* 
+8. You have two arrays: `europeCities` containing `"Paris"` and `"Rome"` and `asianCities` containing `"Tokyo"` and `"Bangkok"`.
+    Merge these two arrays into a new array named `worldCities`.
+*/
+
+let europeCities = ["Paris", "Rome"];
+let asianCities = ["Tokyo", "Bangkok"];
+let worldCities = [...europeCities, ...asianCities];
+// console.log(worldCities);
+
+/* 
+9. You have an array named `teaMenu` containing `"masala chai"`, `"oolong tea"`, `"green tea"`, and `"earl grey"`.
+    Find the length of array and store it in a variable named `menuLength`.
+*/
+
+let teaMenu = ["masala chai", "oolong tea", "green tea", "earl grey"];
+let menuLength = teaMenu.length;
+// console.log(menuLength);
+
+/* 
+10. you have an array named `cityBucketList` containing `"Kyoto"`, `"London"`, `"Cape Town"`, and `"Vancouver"`.
+    Check if `"London"` is present in the array and store the result in a variable named `isLondonPresent`.
+*/
+
+let cityBucketList = ["Kyoto", "London", "Cape Town", "Vancouver"];
+let isLondonPresent = cityBucketList.includes("London");
+// console.log(isLondonPresent);
